@@ -1,14 +1,16 @@
 import React from 'react'
 import AddToCartButton from './AddToCartButton'
-import styles from './ProductCard.module.css'
 
 
-styles.card
+
+
+// lctrl + space, for auto complete of tailwind class
 
 
 const ProductCard = () => {
   return (
-    <div className={styles.card}>
+
+    <div>
         <AddToCartButton />
     </div>
   )
