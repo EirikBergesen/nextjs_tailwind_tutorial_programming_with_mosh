@@ -1,0 +1,22 @@
+
+
+/* This is a javascript property, names cant include hyphens(- / dash) as is not correct js */
+/* this will autogenerate css classnames when ran. By postcss.config.js */
+/* f.eks import as styles, styles.classname {styles.card} is given as className */
+
+.card {
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+
+.window {
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+
+.largePad {
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
